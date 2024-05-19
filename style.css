@@ -15,8 +15,8 @@ body {
   }
    
   .logo {
-    max-height: 50px; /* Або будь-який інший розмір відповідно до вашого дизайну */
-    border-radius: 10px; /* Закруглення кутів */
+    max-height: 50px; 
+    border-radius: 10px; 
   }
   
   .nav-items {
