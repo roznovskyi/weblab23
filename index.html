@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Список елементів</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style="background-color: brown;">Вверх</button>
+<div class="navigation">
+  <img src="logo1.jpg" alt="Логотип" class="logo" width="100" height="auto">
+  <div class="nav-items">
+    <button onclick="applyFilter('all')">Всі</button>
+    <button onclick="applyFilter('category1')">Категорія 1</button>
+    <button onclick="applyFilter('category2')">Категорія 2</button>
+    <button onclick="window.location.href='graph.html'">Графік </button>
+    <button alt="Кошик" class="cart-icon" onclick="toggleCart()">Корзина</button>
+  </div>  
+  </div>
+</div>
+
+<div id="cartModal" class="modal cart-modal">
+  <div id="cartItemsContainer"></div>
+  <button onclick="closeModal('cartModal')"  class="button1">Закрити кошик</button>
+</div> 
+
+
+<div id="cardsContainer"></div>
+
+<div id="subscriptionModal" class="modal">
+  <p>Реклама</p>
+  <button onclick="subscribe()" class="button1">Перейти</button>
+  <button onclick="closeModal('subscriptionModal')" class="button1">Закрити</button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
